@@ -1,6 +1,5 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -61,9 +60,9 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\js\site.js
 D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\css\site.css
 D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\favicon.ico
-D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\js\site.js
 D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -123,3 +122,4 @@ D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\lib\jquery\LICENSE.txt
+D:\Programacion\.NET\PORTAFOLIO_2026\wwwroot\js\site.js
