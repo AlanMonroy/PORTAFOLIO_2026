@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "build-watch": "vite build --watch --config ./vite.config.js",
+    "dev": "vite build --watch --mode development",
     "build": "vite build"
   },
   "keywords": [],

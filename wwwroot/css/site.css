@@ -162,7 +162,11 @@ body {
 
 #text-split .text-xl {
     font-size: 1.5rem;
-    color: currentColor;
+    color: rgb(51, 179, 241);
     letter-spacing: 0.06em;
     line-height: 1.35;
+}
+
+#span_1{
+    color: red;
 }

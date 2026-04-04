@@ -15,13 +15,14 @@ document.addEventListener("DOMContentLoaded", () => {
         loop: true,
         defaults: { ease: 'inOut(3)', duration: 650 }
     })
-        .add(words, {
-            y: el => +el.dataset.line % 2 ? '100%' : '-100%',
-        }, stagger(125))
-        .add(chars, {
-            y: el => +el.dataset.line % 2 ? '100%' : '-100%',
-        }, stagger(10, { from: 'random' }))
-        .init();
+
+    .add(words, {
+        y: el => +el.dataset.line % 2 ? '100%' : '-100%',
+    }, stagger(125))
+    .add(chars, {
+        y: el => +el.dataset.line % 2 ? '100%' : '-100%',
+    }, stagger(10, { from: 'random' }))
+    .init();
 
     /*Fondo */
     const colores = ['#fff2', '#fff4', '#fff7', '#fffc'
