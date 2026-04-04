@@ -89,7 +89,6 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\staticwebassets.build.jso
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\staticwebassets.development.json
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\swae.build.ex.cache
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\PORTAFOLIO_2026.dll
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\refint\PORTAFOLIO_2026.dll
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\PORTAFOLIO_2026.pdb
@@ -98,4 +97,4 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\ref\PORTAFOLIO_2026.dll
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-lhgnfmwmdx-lhgnfmwmdx.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\bin\Debug\net10.0\package-lock.json
 D:\Programacion\.NET\PORTAFOLIO_2026\bin\Debug\net10.0\package.json
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-ztb99e7gq1-ztb99e7gq1.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-vnlr9leobz-vnlr9leobz.gz
