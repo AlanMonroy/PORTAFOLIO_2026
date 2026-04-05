@@ -30,6 +30,44 @@ body {
   text-align: start;
 }
 
+#contenedor_main {
+    margin: 1% 5%;
+}
+
+/*PRIMERA SECCION*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.div1 {
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-column: span 4 / span 4;
+    grid-row: span 2 / span 2;
+}
+
+.div3 {
+    grid-column: span 5 / span 5;
+    grid-row: span 3 / span 3;
+    grid-row-start: 3;
+}
+
+#imagen_perfil {
+    width: 15vw;
+    min-width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+        
+
 /*CSS PARA FONDO ANIMADO*/
 .contenedor_fondo {
     background-image: linear-gradient(#051327, #000);
@@ -60,9 +98,7 @@ body {
     }
 }
 
-/*CSS PARA LAS OPCIONES DE ENLACE */
-.contenedor_enlaces {
-    background: black;
+.contenedor_centrado {
     display: flex;
     justify-content: space-around; /* se distribuyan segun espacio*/
     align-content: center;
@@ -70,12 +106,46 @@ body {
     gap: 20px;
     padding: 20px;
     overflow: hidden;
+    border-radius: 20px;
+}
+.text1{
+    color:white;
+}
+
+.contenedor_centrado_estilo {
+    background: rgba(150, 150, 150, 0.15);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: space-around; /* se distribuyan segun espacio*/
+    align-content: center;
+    flex-wrap: wrap; /* Cuando no hay suficiente espacio hace nuevas filas*/
+    gap: 20px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 1% 2%;
+}
+
+/*CSS PARA LAS OPCIONES DE ENLACE */
+.contenedor_enlaces {
+    background: rgba(150, 150, 150, 0.15);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: space-around; /* se distribuyan segun espacio*/
+    align-content: center;
+    flex-wrap: wrap; /* Cuando no hay suficiente espacio hace nuevas filas*/
+    gap: 20px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px
 }
 
 .contenedor_enlaces .contenedor-imagen {
     position: relative;
-    width: 7vw; /* Ajusta el ancho según tus preferencias */
-    height: 7vw; /* Ajusta la altura según tus preferencias */
+    width: 7vw; /* Ajustar */
+    height: 7vw; /* Ajustar */
     border-radius: 50%;
     transition: 1s;
 }
@@ -169,4 +239,12 @@ body {
 
 #span_1{
     color: red;
+}
+
+.square {
+    position: absolute;
+}
+
+.docs-demo-html {
+    position: relative;
 }

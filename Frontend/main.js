@@ -1,11 +1,38 @@
-import { createTimeline, stagger, splitText } from 'animejs';
-
+import { createAnimatable, utils, createTimeline, stagger, splitText } from 'animejs';
 
 console.log("JS cargado");
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    /*Animacion */
+    /*Move cursor */
+    const $demos = document.querySelector('#docs-demos');
+    const $demo = document.querySelector('.docs-demo.is-active');
+    console.log($demos);
+    console.log($demo);
+
+    let bounds = $demo.getBoundingClientRect();
+    const refreshBounds = () => bounds = $demo.getBoundingClientRect();
+
+    const animatableSquare = createAnimatable('.square', {
+        x: 500, // Define the x duration to be 500ms
+        y: 500, // Define the y duration to be 500ms
+        ease: 'out(3)',
+    });
+
+    const onMouseMove = e => {
+        const { width, height, left, top } = bounds;
+        const hw = width / 2;
+        const hh = height / 2;
+        const x = utils.clamp(e.clientX - left - hw, -hw, hw);
+        const y = utils.clamp(e.clientY - top - hh, -hh, hh);
+        animatableSquare.x(x); // Animate the x value in 500ms
+        animatableSquare.y(y); // Animate the y value in 500ms
+    }
+
+    window.addEventListener('mousemove', onMouseMove);
+    $demos.addEventListener('scroll', refreshBounds);
+
+    /*=-=-=-=-=-=-= ANIMACION =-=-=-=-=-=-=*/
     const { words, chars } = splitText('p', {
         words: { wrap: 'clip' },
         chars: true,
@@ -13,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     createTimeline({
         loop: true,
-        defaults: { ease: 'inOut(3)', duration: 650 }
+        defaults: { ease: 'inOut(5)', duration: 650 }
     })
 
     .add(words, {
@@ -24,7 +51,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }, stagger(10, { from: 'random' }))
     .init();
 
-    /*Fondo */
+
+    /*=-=-=-=-=-=-= FONDO =-=-=-=-=-=-= */
     const colores = ['#fff2', '#fff4', '#fff7', '#fffc'
     ];
     const generateSpaceLayer = (selector, size, totalStars, duration) => {
@@ -56,7 +84,6 @@ document.addEventListener("DOMContentLoaded", () => {
     generateSpaceLayer('.space-3', '4px',
         50, '15s');
 
-    console.log("SITE JS REAL");
 
 
 });
