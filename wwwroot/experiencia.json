@@ -1,0 +1,51 @@
+[
+  {
+    "periodo": "Abril 2023 - presente",
+    "empresa": "Grupo TI Mexico",
+    "posicion": "Desarrollador Fullstack",
+    "descripcion": "Automatizacion de procesos en gestion de proveedores, control de base de datos, validacion de datos.",
+    "tecnologias": [
+      "Oracle Apex",
+      "SQL",
+      "PL/SQL",
+      "API's",
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ]
+  },
+  {
+    "periodo": "Septiembre 2022 - Marzo 2023",
+    "empresa": "Grupo TI Mexico",
+    "posicion": "QA Automatizador",
+    "descripcion": "Creacion de flujos de operaciones para validar sistemas de venta. Manejo de versiones.",
+    "tecnologias": [
+      "SQL",
+      "GIT",
+      "UFT(Micro Focus Unified Functional Testing)",
+      "VBScript",
+      "Selenium Python"
+    ]
+  },
+  {
+    "periodo": "Mayo 2022 - Septiembre 2022",
+    "empresa": "Grupo TI Mexico",
+    "posicion": "QA Manual",
+    "descripcion": "Creacion de matrices de pruebas y ejecucion de flujos. Creacion de programa para maquinas en ambiente QA mejorando tiempos de testeo",
+    "tecnologias": [
+      "SQL",
+      "Excel",
+      "Python"
+    ]
+  },
+  {
+    "periodo": "Julio 2019 - Diciembre 2019",
+    "empresa": "FIME",
+    "posicion": "Pasante Desarrollador Power Apps",
+    "descripcion": "Desarrollo app movil para apoyo en aprendizaje de alumnos en materia de Ingenieria Economica de Proyectos en la UANL.",
+    "tecnologias": [
+      "Power Apps",
+      ""
+    ]
+  }
+]
