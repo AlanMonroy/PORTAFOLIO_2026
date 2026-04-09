@@ -80,18 +80,6 @@ document.addEventListener("DOMContentLoaded", () => {
     generateSpaceLayer('.space-3', '4px',
         50, '15s');
 
-    /* Crear linea del tiempo*/
-    function mostrarDatos(datos, idElemento) {
-        // Convertir el objeto JSON a una cadena JSON
-        var jsonData = JSON.stringify(datos, null, 2);
-
-        // Obtener el elemento pre donde se mostrará el JSON
-        var preElement = document.getElementById(idElemento);
-
-        // Asignar la cadena JSON al contenido del elemento pre
-        preElement.textContent = jsonData;
-    };
-
     /*LINEA DEL TIEMPO*/
     function show_time_line(elemento) {
         fetch('./experiencia.json')
@@ -130,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
     };
 
-    show_time_line('linea_tiempo1'); //MANDA LLARMA LA CREACION
+    show_time_line('linea_tiempo1'); //MANDA LLAMAR LA CREACION
 
     // Animate timeline items on scroll
     function animateOnScroll() {
@@ -141,47 +129,49 @@ document.addEventListener("DOMContentLoaded", () => {
             if (visible) item.classList.add("animate");
         });
     }
-    // Simple search filter by text and tags
-    function filterTimeline(value) {
-        const v = value.trim().toLowerCase();
-        const items = document.querySelectorAll("#timeline .timeline-item");
-        items.forEach((it) => {
-            const text = it.innerText.toLowerCase();
-            const tags = (it.getAttribute("data-tags") || "").toLowerCase();
-            const match = !v || text.includes(v) || tags.includes(v);
-            it.style.display = match ? "" : "none";
-        });
-    }
-    // Toggle References
-    /*const refs = document.getElementById("refs");
-    const btnRefs = document.getElementById("toggleRefs");
-    btnRefs.addEventListener("click", () => {
-        const hidden = refs.classList.toggle("hidden");
-        btnRefs.textContent = hidden ?
-            "Mostrar referencias" :
-            "Ocultar referencias";
-        if (!hidden)
-            refs.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
-    })
-    // Search input behavior
-    const input = document.getElementById("search");
-    input.addEventListener("input", (e) => filterTimeline(e.target.value));
-    // keyboard shortcuts: focus search
-    window.addEventListener("keydown", (e) => {
-        const combo =
-            (e.key === "k" && (e.metaKey || e.ctrlKey)) || e.key === "/";
-        if (combo) {
-            e.preventDefault();
-            input.focus();
-        }
-    });*/
-    // Init
+
     window.addEventListener("scroll", animateOnScroll);
     window.addEventListener("load", animateOnScroll);
     setTimeout(animateOnScroll, 400);
+
+    /*PROYECTOS*/
+    function show_proyectos(elemento) {
+        fetch('./proyectos.json')
+            .then(res => res.json())
+            .then(data => {
+                var contenidoHTML = ``;
+                var contenidoHTML_FINAL = ``;
+                var miDiv = document.getElementById(`${elemento}`); //OBTENER CONTENEDOR
+                //console.log(miDiv);
+
+                let filas = Math.ceil(data.length / 2); //calcular cantidad de filas segun cantidad proyectos
+
+
+                contenidoHTML = `
+                                    <div style="display: grid; grid-template-columns: repeat(${2}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px;">
+                                    
+                    `;
+
+                data.forEach(function (item) {
+                    contenidoHTML += `
+                                        <a href="${item.url}">
+                                            <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
+                                                <div class="flex items-center justify-between mb-2">
+                                                    <span class="text-blue-300 font-semibold text-sm"></span>
+                                                    <span class="bg-blue-500/20 text-blue-200 px-3 py-1 rounded-full text-xs">Tecnologias</span>
+                                                </div>
+                                                <h3 class="text-xl font-bold mb-1 text-white">${item.nombre}</h3>
+                                                <p class="text-slate-200/90">${item.descripcion}</p>
+                                            </div>
+                                        </a>`;
+                });
+                contenidoHTML += `</div>`;
+                //console.log(contenidoHTML);
+                miDiv.innerHTML = contenidoHTML;
+            });
+    };
+
+    show_proyectos('proyectos1'); //MANDA LLAMAR LA CREACION
 
 });
 

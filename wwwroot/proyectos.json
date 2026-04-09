@@ -1,0 +1,28 @@
+[
+  {
+    "nombre": "Configuracion Ambiente",
+    "descripcion": "Automatizacion de la configuracion de ambiente. El objetivo del programa fue configurar ya sea de manera local o remota los parametros de ambiente de pruebas QA en las computadoras donde se realizarian las pruebas reduciendo considerablemente el tiempo requerido y los posibles errores en la ambientacion de las maquinas.",
+    "url": "https://github.com/AlanMonroy",
+    "tecnologias": [
+      "Python",
+      "MongoDB(Atlas)"
+    ]
+  },
+  {
+    "nombre": "Aprendizaje Economica de Proyectos",
+    "descripcion": "Creacion de aplicacion movil para mejorar el aprendizaje en las materias. La app contenia documentos, videos y ejercicios matematicos de la materia para complementar el aprendizaje en las aulas.",
+    "url": "https://github.com/AlanMonroy",
+    "tecnologias": [
+      "Power Apps"
+    ]
+  },
+  {
+    "nombre": "FIME",
+    "descripcion": "Aplicacion de escritorio para asignar a los alumnos un horario creado automaticamente para pasar el menor tiempo posible en escuela",
+    "url": "https://github.com/AlanMonroy",
+    "tecnologias": [
+      "Python",
+      "SQLServer"
+    ]
+  }
+]

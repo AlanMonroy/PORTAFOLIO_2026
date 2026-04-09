@@ -96,6 +96,7 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\PORTAFOLIO_2026.genruntim
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\ref\PORTAFOLIO_2026.dll
 D:\Programacion\.NET\PORTAFOLIO_2026\bin\Debug\net10.0\package-lock.json
 D:\Programacion\.NET\PORTAFOLIO_2026\bin\Debug\net10.0\package.json
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-1o39h1rl9f-1o39h1rl9f.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\5q2xn4w1cd-{0}-s2egk593ds-s2egk593ds.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-k32kd0o613-k32kd0o613.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-sz93rrbtku-sz93rrbtku.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-cgw5otg5u1-cgw5otg5u1.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\jnx883njsy-{0}-w8a83fj9di-w8a83fj9di.gz
