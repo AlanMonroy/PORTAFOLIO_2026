@@ -1,0 +1,93 @@
+[
+  {
+    "ambito": "Lenguajes",
+    "lista": [
+      {
+        "nombre": "JavaScript",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "PL/SQL",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "Python",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "C#",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "VBScript",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "TypeScript",
+        "imagen": "asd"
+      }
+    ]
+  },
+  {
+    "ambito": "Bases de datos",
+    "lista": [
+      {
+        "nombre": "Oracle",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "PostgresSQL",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "SQL",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "Server",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "MongoDB",
+        "imagen": "asd"
+      }
+    ]
+  },
+  {
+    "ambito": "Frameworks / Editores de texto / Arquitecturas ",
+    "lista": [
+      {
+        "nombre": "HTML y CSS",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "Oracle",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "APEX",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "UFT(Micro Focus Unified Functional Testing)",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "Selenium",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "Postman",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "POWER APPS",
+        "imagen": "asd"
+      },
+      {
+        "nombre": "React",
+        "imagen": "asd"
+      }
+    ]
+  }
+]

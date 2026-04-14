@@ -1,5 +1,13 @@
 import { createAnimatable, utils, createTimeline, stagger, splitText } from 'animejs';
 
+window.mostrarImagen = function () {
+    document.getElementById("modal").style.display = "flex";
+}
+
+document.getElementById("modal").onclick = function () {
+    this.style.display = "none";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
 
     /*Move cursor */
@@ -154,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 data.forEach(function (item) {
                     contenidoHTML += `
-                                        <a href="${item.url}">
+                                        <a href="${item.url}" target="_blank">
                                             <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
                                                 <div class="flex items-center justify-between mb-2">
                                                     <span class="text-blue-300 font-semibold text-sm"></span>
@@ -172,6 +180,44 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     show_proyectos('proyectos1'); //MANDA LLAMAR LA CREACION
+
+    /*HABILIDADES */
+    function show_habilidades(elemento) {
+        fetch('./conocimiento.json')
+            .then(res => res.json())
+            .then(data => {
+                var contenidoHTML = ``;
+                var contenidoHTML_FINAL = ``;
+                var miDiv = document.getElementById(`${elemento}`); //OBTENER CONTENEDOR
+                //console.log(miDiv);
+
+                let filas = Math.ceil(data.length / 2); //calcular cantidad de filas segun cantidad proyectos
+
+
+                contenidoHTML = `
+                                    <div style="display: grid; grid-template-columns: repeat(${2}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px;">
+                                    
+                    `;
+
+                data.forEach(function (item) {
+                    contenidoHTML += `
+                        <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
+                            <h3 class="text-xl font-bold mb-1 text-white">${item.ambito}</h3>
+                            <ul>
+                    `;
+                    item.lista.forEach(function (itemList) {
+                        contenidoHTML += `<li class="text1">${itemList.nombre}</li>`;
+                    });
+                    contenidoHTML += `</ul></div>`;
+                });
+                contenidoHTML += `</div>`;
+                //console.log(contenidoHTML);
+                miDiv.innerHTML = contenidoHTML;
+            });
+    };
+
+    show_habilidades('habilidades1'); //MANDA LLAMAR LA CREACION
+
 
 });
 
