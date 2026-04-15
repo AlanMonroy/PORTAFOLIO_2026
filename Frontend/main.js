@@ -1,11 +1,29 @@
 import { createAnimatable, utils, createTimeline, stagger, splitText } from 'animejs';
 
 window.mostrarImagen = function () {
-    document.getElementById("modal").style.display = "flex";
+    document.getElementById("modal1").style.display = "flex";
 }
 
-document.getElementById("modal").onclick = function () {
+document.getElementById("modal1").onclick = function () {
     this.style.display = "none";
+}
+
+window.mostrarModal = function (url) {
+    const modal = document.getElementById("modal");
+    const img = document.getElementById("modal-img");
+    const pdf = document.getElementById("modal-pdf");
+
+    if (url.endsWith(".pdf")) {
+        img.style.display = "none";
+        pdf.style.display = "block";
+        pdf.src = url;
+    } else {
+        pdf.style.display = "none";
+        img.style.display = "block";
+        img.src = url;
+    }
+
+    modal.style.display = "flex";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -217,6 +235,42 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     show_habilidades('habilidades1'); //MANDA LLAMAR LA CREACION
+
+    /*CERTIFICADOS */
+    function show_certificaciones(elemento) {
+        fetch('./certificados.json')
+            .then(res => res.json())
+            .then(data => {
+                var contenidoHTML = ``;
+                var contenidoHTML_FINAL = ``;
+                var miDiv = document.getElementById(`${elemento}`); //OBTENER CONTENEDOR
+                //console.log(miDiv);
+
+                let elementos_por_fila = 1;
+                let filas = Math.ceil(data.length / elementos_por_fila); //calcular cantidad
+
+                contenidoHTML = `
+                                    <div style="display: grid; grid-template-columns: repeat(${elementos_por_fila}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px;">
+                                    
+                    `;
+
+                data.forEach(function (item) {
+                    console.log(item.certificado);
+                    console.log(item.imagen);
+                    contenidoHTML += `
+                                       <div style="display: flex;justify-content: space-between;align-items: center;background: rgba(255,255,255,0.1);padding: 10px;border-radius: 10px;">
+                                            <span class="text1">${item.certificado}</span>
+                                            <button class="boton_estilo" onclick="mostrarModal('${item.imagen}')">Ver</button>
+                                        </div>
+                    `;
+                });
+
+                //console.log(contenidoHTML);
+                miDiv.innerHTML = contenidoHTML;
+            });
+    };
+
+    show_certificaciones('certificaciones1'); //MANDA LLAMAR LA CREACION
 
 
 });

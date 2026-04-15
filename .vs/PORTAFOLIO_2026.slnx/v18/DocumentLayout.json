@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\certificados.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\certificados.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -19,8 +23,16 @@
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\experiencia.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\conocimiento.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\conocimiento.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\proyectos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\proyectos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,44 +42,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-02T22:24:54.928Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-06T02:04:17.635Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.js",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Frontend\\main.js",
               "RelativeDocumentMoniker": "Frontend\\main.js",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Frontend\\main.js",
               "RelativeToolTip": "Frontend\\main.js",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAqwAEBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-04-02T23:28:36.39Z",
               "IsPinned": true,
@@ -75,20 +74,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-06T02:04:17.635Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD0AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAJIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-04-02T22:46:03.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "certificados.json",
+              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\certificados.json",
+              "RelativeDocumentMoniker": "wwwroot\\certificados.json",
+              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\certificados.json",
+              "RelativeToolTip": "wwwroot\\certificados.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T04:13:16.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "conocimiento.json",
+              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\conocimiento.json",
+              "RelativeDocumentMoniker": "wwwroot\\conocimiento.json",
+              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\conocimiento.json",
+              "RelativeToolTip": "wwwroot\\conocimiento.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T04:15:29.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "proyectos.json",
+              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\proyectos.json",
+              "RelativeDocumentMoniker": "wwwroot\\proyectos.json",
+              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\proyectos.json",
+              "RelativeToolTip": "wwwroot\\proyectos.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T04:12:54.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "experiencia.json",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\experiencia.json",
               "RelativeDocumentMoniker": "wwwroot\\experiencia.json",

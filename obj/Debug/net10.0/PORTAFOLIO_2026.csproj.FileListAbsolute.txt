@@ -97,6 +97,8 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\ref\PORTAFOLIO_2026.dll
 D:\Programacion\.NET\PORTAFOLIO_2026\bin\Debug\net10.0\package-lock.json
 D:\Programacion\.NET\PORTAFOLIO_2026\bin\Debug\net10.0\package.json
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\5q2xn4w1cd-{0}-s2egk593ds-s2egk593ds.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-sz93rrbtku-sz93rrbtku.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-f8obfsp2al-f8obfsp2al.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\jnx883njsy-{0}-ozlmyl9ap3-ozlmyl9ap3.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uf6ysf5zbv-{0}-qx5npry76x-qx5npry76x.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\po37k8552e-{0}-paq8ei01gn-paq8ei01gn.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-whhl334spg-whhl334spg.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-zirzyjzi1g-zirzyjzi1g.gz
