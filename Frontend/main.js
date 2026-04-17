@@ -4,8 +4,11 @@ window.mostrarImagen = function () {
     document.getElementById("modal1").style.display = "flex";
 }
 
-document.getElementById("modal1").onclick = function () {
-    this.style.display = "none";
+const modal1 = document.getElementById("modal1");
+if (modal1) {
+    modal1.onclick = function () {
+        this.style.display = "none";
+    };
 }
 
 window.mostrarModal = function (url) {
@@ -26,8 +29,18 @@ window.mostrarModal = function (url) {
     modal.style.display = "flex";
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+/*document.getElementById("modal").onclick = function () {
+    this.style.display = "none";
+}*/
 
+const modal = document.getElementById("modal");
+if (modal) {
+    modal.onclick = function () {
+        this.style.display = "none";
+    };
+}
+
+document.addEventListener("DOMContentLoaded", () => {
     /*Move cursor */
     const $demos = document.querySelector('#docs-demos');
     const $demo = document.querySelector('.docs-demo.is-active');
@@ -180,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 data.forEach(function (item) {
                     contenidoHTML += `
-                                        <a href="${item.url}" target="_blank">
+                                        <a href="${urlProyectos}?nombre=${item.nombre}">
                                             <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
                                                 <div class="flex items-center justify-between mb-2">
                                                     <span class="text-blue-300 font-semibold text-sm"></span>
@@ -255,14 +268,25 @@ document.addEventListener("DOMContentLoaded", () => {
                     `;
 
                 data.forEach(function (item) {
-                    console.log(item.certificado);
-                    console.log(item.imagen);
+
                     contenidoHTML += `
-                                       <div style="display: flex;justify-content: space-between;align-items: center;background: rgba(255,255,255,0.1);padding: 10px;border-radius: 10px;">
-                                            <span class="text1">${item.certificado}</span>
-                                            <button class="boton_estilo" onclick="mostrarModal('${item.imagen}')">Ver</button>
-                                        </div>
-                    `;
+                        <div style="
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            align-items: center;
+                            background: rgba(255,255,255,0.1);
+                            padding: 10px;
+                            border-radius: 10px;">
+                            <span class="text1" style="text-align: center;">
+                                ${item.certificado}
+                            </span>
+
+                            <div style="text-align: center;">
+                                <button class="boton_estilo" onclick="mostrarModal('${item.imagen}')">
+                                    Ver
+                                </button>
+                            </div>
+                        </div>`;
                 });
 
                 //console.log(contenidoHTML);

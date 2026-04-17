@@ -21,5 +21,10 @@ namespace PORTAFOLIO_2026.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public ActionResult Proyectos(string proyecto)
+        {
+            return View();
+        }
     }
 }

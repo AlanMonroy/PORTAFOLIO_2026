@@ -2,6 +2,10 @@
     ViewData["Title"] = "Home Page";
 }
 
+<script>
+    const urlProyectos = '@Url.Action("Proyectos", "Home")';
+</script>
+
 <!--Crear el fondo con efecto de la pagina-->
 <div class="contenedor_fondo">
     <div class="space space-1"></div>
@@ -9,13 +13,20 @@
     <div class="space space-3"></div>
 </div>
 
+<a href="@Url.Action("Proyectos", "Home", new { nombre = "Proyecto1" })">ir pagina</a>
 <div class="parent">
     <div class="div1">
         <img id ="imagen_perfil" src="https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/perfil.jfif">
     </div>
     <div class="div2 contenedor_centrado_estilo">
         <span class="text-center navbar-text text1">Roberto Alan Rodriguez Monroy</span>
-        <span class="text1">Ingeniero Administrador de Sitemas. Desarrollador fullstack creando software especializado; enfoque en automatizacion de procesos y manejo de bases de datos.</span>
+        <span class="text1">Ingeniero Administrador de Sitemas. Desarrollador fullstack creando software especializado; enfoque en automatizacion de procesos y manejo de bases de datos.
+            <br />Mi dia a dia consiste en la creacion de nuevas funcionalidades especificas para los clientes, empezando por reuniones de entendimiento con el cliente, desarrollo de procedimientos, pruebas y retroalimentacion con el cliente.
+            Creacion de reportes que muestran dinamicamente la informacion extraida y validada de documentos que se usan en toda gestion de una empresa como validaciones REPSE.
+            Creacion de API's para que nuestros clientes puedan consumir la misma informacion de los reportes de forma rapida o para creacion de diferentes objetos relacionados a la gestion.
+            Correciones de errores y automatizacion del calculo de la informacion para mejorar tiempos de respuesta.
+            <br />Gestion de control de accesos para controlar el acceso a proveedores de acuerdo al cumplimiento de entrega de documentacion a la empresa.
+        </span>
     </div>
     <div class="div3 contenedor_izquierda contenedor_estilo">
         <span class="text1">Correo electronico: alanmonroyzz99@gmail.com</span>
@@ -24,24 +35,28 @@
         <span class="text1">Fecha de nacimiento: 09/02/1999</span>
         <a class="boton_estilo boton_posicion_1" href="https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/cv.pdf">Descargar CV</a>
     </div>
-    <div class="div4 contenedor_centrado_estilo">
-        <div class="contenedor_centrado">
-            <span class="text1">
-                <b>Carrera:</b> Ingeniero Administrador de Sistemas,
-                Egresado - UANL FIME 2016 - 2022
-            </span>
-        </div>
-        <button class="boton_estilo boton_posicion_1" onclick="mostrarImagen()">Ver titulo</button>
-    </div>
     <!--<div class="div3 contenedor_centrado_estilo">3</div>-->
 </div>
+
+<div class="div4 contenedor_estilo" 
+    style="display: flex;justify-content: space-around; align-content: center;flex-wrap: wrap; gap: 20px;
+    margin: 1% 2%;overflow: hidden;border-radius: 20px">
+    <div class="contenedor_centrado">
+        <span class="text1">
+            <b>Carrera:</b> Ingeniero Administrador de Sistemas,
+            Egresado - UANL FIME 2016 - 2022
+        </span>
+    </div>
+    <button class="boton_estilo boton_posicion_1" onclick="mostrarImagen()">Ver titulo</button>
+</div>
+
 <div id="modal1" class="modal">
     <img src="https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/titulo.jpg" />
 </div>
 
 <div id="modal" class="modal">
-    <img id="modal-img" />
-    <iframe id="modal-pdf" style="display:none;"></iframe>
+    <img id="modal-img" style="width: 80%;height: 80%;border-radius: 10px;" />
+    <iframe id="modal-pdf" style="width: 80%;height: 80%;border-radius: 10px;"></iframe>
 </div>
     
 <!--LINEA DEL TIEMPO-->
@@ -51,7 +66,7 @@
 <div class="contenedor_centrado">
     <span class="text1">Proyectos</span>
 </div>
-<div id="proyectos1" class="contenedor_centrado"></div>
+<div id="proyectos1" class="contenedor_centrado" style="padding:0px;"></div>
 
 <!--SECCION REDES-->
 <div class="contenedor_centrado">
@@ -97,11 +112,12 @@
 <div id="certificaciones1">
 </div>
 
+<!--HABILIDADES-->
 <div class="contenedor_centrado">
     <span class="text1">Habilidades</span>
 </div>
 
-<div id="habilidades1" class="contenedor_centrado"></div>
+<div id="habilidades1" class="contenedor_centrado" style="padding:0px;"></div>
 
 <!--<div id="box" style="width:100px;height:100px;background:red;"></div>-->
 

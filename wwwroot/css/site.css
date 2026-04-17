@@ -38,7 +38,7 @@ body {
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 8px;
 }
 
@@ -54,13 +54,7 @@ body {
 .div3 {
     grid-row: span 2 / span 2;
     grid-column-start: 5;
-}
-
-.div4 {
-    grid-column: span 3 / span 3;
-    grid-column-start: 2;
-    grid-row-start: 2;
-}       
+}     
 
 #imagen_perfil {
     width: 15vw;
@@ -363,3 +357,4 @@ body {
     max-height:80%;
     border-radius: 10px;
 }
+

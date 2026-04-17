@@ -1,18 +1,18 @@
 [
   {
     "certificado": "Fundamentos de pruebas de software",
-    "imagen": "https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/certificado_pruebas.pdf"
+    "imagen": "https://alanmonroy.github.io/IMAGENES/certificado_pruebas.pdf"
   },
   {
-    "certificado": "SCRUM",
-    "imagen": "https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/certificado_scrum.pdf"
+    "certificado": "Fundamentos SCRUM",
+    "imagen": "https://alanmonroy.github.io/IMAGENES/certificado_scrum.pdf"
   },
   {
-    "certificado": "Python",
-    "imagen": "https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/certificado_python.pdf"
+    "certificado": "Udemy Python",
+    "imagen": "https://alanmonroy.github.io/IMAGENES/certificado_python.pdf"
   },
   {
-    "certificado": "Ingles",
-    "imagen": "https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/certificado_scrum.pdf"
+    "certificado": "Udemy Ingles",
+    "imagen": "https://alanmonroy.github.io/IMAGENES/certificado_scrum.pdf"
   }
 ]
