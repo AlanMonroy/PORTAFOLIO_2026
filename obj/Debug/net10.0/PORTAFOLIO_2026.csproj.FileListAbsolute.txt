@@ -29,7 +29,6 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uf6ysf5zbv-{0}
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-3gt0sv94hi-3gt0sv94hi.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\5q2xn4w1cd-{0}-s2egk593ds-s2egk593ds.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\tof119gzd4-{0}-61n19gt1b8-61n19gt1b8.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-3odn7m88j7-3odn7m88j7.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\91356hmehj-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\1w6mybryls-{0}-c2jlpeoesf-c2jlpeoesf.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\3w3ywk1pjd-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -102,3 +101,4 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\refint\PORTAFOLIO_2026.dl
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\PORTAFOLIO_2026.pdb
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\PORTAFOLIO_2026.genruntimeconfig.cache
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\ref\PORTAFOLIO_2026.dll
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-b9m6p3i224-b9m6p3i224.gz

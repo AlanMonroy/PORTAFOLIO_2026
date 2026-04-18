@@ -1,4 +1,4 @@
-import { createAnimatable, utils, createTimeline, stagger, splitText } from 'animejs';
+﻿import { createAnimatable, utils, createTimeline, stagger, splitText } from 'animejs';
 
 window.mostrarImagen = function () {
     document.getElementById("modal1").style.display = "flex";
@@ -13,20 +13,22 @@ if (modal1) {
 
 window.mostrarModal = function (url) {
     const modal = document.getElementById("modal");
-    const img = document.getElementById("modal-img");
-    const pdf = document.getElementById("modal-pdf");
+    if (modal) {
+        const img = document.getElementById("modal-img");
+        const pdf = document.getElementById("modal-pdf");
 
-    if (url.endsWith(".pdf")) {
-        img.style.display = "none";
-        pdf.style.display = "block";
-        pdf.src = url;
-    } else {
-        pdf.style.display = "none";
-        img.style.display = "block";
-        img.src = url;
+        if (url.endsWith(".pdf")) {
+            img.style.display = "none";
+            pdf.style.display = "block";
+            pdf.src = url;
+        } else {
+            pdf.style.display = "none";
+            img.style.display = "block";
+            img.src = url;
+        }
+
+        modal.style.display = "flex";
     }
-
-    modal.style.display = "flex";
 }
 
 /*document.getElementById("modal").onclick = function () {
@@ -78,46 +80,13 @@ document.addEventListener("DOMContentLoaded", () => {
         defaults: { ease: 'inOut(5)', duration: 650 }
     })
 
-    .add(words, {
-        y: el => +el.dataset.line % 2 ? '100%' : '-100%',
-    }, stagger(125))
-    .add(chars, {
-        y: el => +el.dataset.line % 2 ? '100%' : '-100%',
-    }, stagger(10, { from: 'random' }))
-    .init();
-
-
-    /*=-=-=-=-=-=-= FONDO =-=-=-=-=-=-= */
-    const colores = ['#fff2', '#fff4', '#fff7', '#fffc'
-    ];
-    const generateSpaceLayer = (selector, size, totalStars, duration) => {
-        const layer = [];
-        for (let i = 0; i < totalStars; i++) {
-            const color = colores[Math.floor(Math.random() * colores.length)
-            ];
-            const x = Math.floor(Math.random() * 100);
-            const y = Math.floor(Math.random() * 100);
-            layer.push(`${x
-                }vw ${y
-                }vh 0 ${color
-                },
-    ${x
-                }vw ${y + 100
-                }vh 0 ${color
-                }`);
-        }
-        const container = document.querySelector(selector);
-        container.style.setProperty('--space-layer', layer.join(','));
-        container.style.setProperty('--size', size);
-        container.style.setProperty('--duration', duration);
-    }
-    /*clase del div, tamanio de las estrellas, cantidad de estrellas, duracion*/
-    generateSpaceLayer('.space-1', '1px',
-        200, '25s');
-    generateSpaceLayer('.space-2', '2px',
-        100, '20s');
-    generateSpaceLayer('.space-3', '4px',
-        50, '15s');
+        .add(words, {
+            y: el => +el.dataset.line % 2 ? '100%' : '-100%',
+        }, stagger(125))
+        .add(chars, {
+            y: el => +el.dataset.line % 2 ? '100%' : '-100%',
+        }, stagger(10, { from: 'random' }))
+        .init();
 
     /*LINEA DEL TIEMPO*/
     function show_time_line(elemento) {
@@ -134,10 +103,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                         <div class="timeline-line absolute left-8 md:left-10 top-0 w-1 h-full rounded-full"></div>
                                         <div id="timeline" class="space-y-10 md:space-y-12">`;
 
-                data.forEach(function(item){
+                data.forEach(function (item) {
                     //console.log(item.posicion);
                     //console.log(item.tecnologias.join(', '));
-                   
+
                     contenidoHTML += `
                                         <article class="timeline-item relative flex items-center" data-tags="">
                                             <div class="timeline-dot absolute left-4 md:left-6 w-8 h-8 bg-blue-500 rounded-full border-4 border-white/90 shadow-lg z-10"></div>

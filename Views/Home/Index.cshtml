@@ -1,6 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@section Scripts {
+    <script type="module" src="~/js/main.js"></script>
+    <script type="module" src="~/js/index.js"></script>
+}
 
 <script>
     const urlProyectos = '@Url.Action("Proyectos", "Home")';
@@ -13,7 +17,6 @@
     <div class="space space-3"></div>
 </div>
 
-<a href="@Url.Action("Proyectos", "Home", new { nombre = "Proyecto1" })">ir pagina</a>
 <div class="parent">
     <div class="div1">
         <img id ="imagen_perfil" src="https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/perfil.jfif">

@@ -3,44 +3,36 @@
   "WorkspaceRootPath": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\frontend\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:frontend\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\views\\home\\proyectos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:views\\home\\proyectos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\js_vite\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:js_vite\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\js_vite\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:js_vite\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\views\\home\\proyectos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:views\\home\\proyectos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\certificados.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\certificados.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\experiencia.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\experiencia.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\conocimiento.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\conocimiento.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\proyectos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\proyectos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-02T22:24:54.928Z",
               "IsPinned": true,
@@ -68,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.js",
-              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Frontend\\main.js",
-              "RelativeDocumentMoniker": "Frontend\\main.js",
-              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Frontend\\main.js",
-              "RelativeToolTip": "Frontend\\main.js",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAA1AAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\JS_VITE\\main.js",
+              "RelativeDocumentMoniker": "JS_VITE\\main.js",
+              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\JS_VITE\\main.js",
+              "RelativeToolTip": "JS_VITE\\main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-04-02T23:28:36.39Z",
               "IsPinned": true,
@@ -82,16 +74,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-06T02:04:17.635Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-18T03:07:49.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.js",
+              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\JS_VITE\\index.js",
+              "RelativeDocumentMoniker": "JS_VITE\\index.js",
+              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\JS_VITE\\index.js",
+              "RelativeToolTip": "JS_VITE\\index.js",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-18T02:58:56.294Z",
               "EditorCaption": ""
             },
             {
@@ -100,77 +118,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-18T02:42:06.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Proyectos.cshtml",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Proyectos.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Proyectos.cshtml",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Proyectos.cshtml",
               "RelativeToolTip": "Views\\Home\\Proyectos.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-17T04:49:24.716Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T04:45:53.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-02T22:46:03.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "certificados.json",
-              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\certificados.json",
-              "RelativeDocumentMoniker": "wwwroot\\certificados.json",
-              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\certificados.json",
-              "RelativeToolTip": "wwwroot\\certificados.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-15T04:13:16.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "conocimiento.json",
-              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\conocimiento.json",
-              "RelativeDocumentMoniker": "wwwroot\\conocimiento.json",
-              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\conocimiento.json",
-              "RelativeToolTip": "wwwroot\\conocimiento.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-15T04:15:29.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "proyectos.json",
-              "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\proyectos.json",
-              "RelativeDocumentMoniker": "wwwroot\\proyectos.json",
-              "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\proyectos.json",
-              "RelativeToolTip": "wwwroot\\proyectos.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-15T04:12:54.898Z"
             },
             {
               "$type": "Document",
@@ -182,7 +152,8 @@
               "RelativeToolTip": "wwwroot\\experiencia.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-09T03:19:58.097Z"
+              "WhenOpened": "2026-04-09T03:19:58.097Z",
+              "EditorCaption": ""
             }
           ]
         }
