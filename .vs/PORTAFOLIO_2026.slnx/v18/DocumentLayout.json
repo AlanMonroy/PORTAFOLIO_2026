@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\portafolio_2026.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:portafolio_2026.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\js_vite\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -109,20 +109,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-19T03:41:29.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PORTAFOLIO_2026",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\PORTAFOLIO_2026.csproj",
               "RelativeDocumentMoniker": "PORTAFOLIO_2026.csproj",
@@ -134,28 +134,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PORTAFOLIO_2026.csproj",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\PORTAFOLIO_2026.csproj",
               "RelativeDocumentMoniker": "PORTAFOLIO_2026.csproj",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\PORTAFOLIO_2026.csproj",
               "RelativeToolTip": "PORTAFOLIO_2026.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-04-19T03:05:56.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T02:46:56.088Z"
+              "WhenOpened": "2026-04-19T02:46:56.088Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -195,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "vite.config.js",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\vite.config.js",
               "RelativeDocumentMoniker": "vite.config.js",
