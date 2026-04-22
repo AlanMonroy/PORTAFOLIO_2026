@@ -42,6 +42,28 @@ if (modal) {
     };
 }
 
+/* Mostar ocultar segun el size*/
+/*const texto = document.getElementById("texto_largo");
+function activarSlide() {
+    if (window.innerWidth <= 1024) {
+        texto.onclick = () => {
+            texto.classList.toggle("expandido");
+        };
+    } else {
+        texto.onclick = null;
+        texto.classList.remove("expandido");
+    }
+}
+
+window.addEventListener("resize", activarSlide);
+activarSlide();*/
+
+const texto = document.getElementById("texto_largo");
+
+texto.addEventListener("click", () => {
+    texto.classList.toggle("expandido");
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     /*Move cursor */
     const $demos = document.querySelector('#docs-demos');
