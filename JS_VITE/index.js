@@ -58,10 +58,22 @@ function activarSlide() {
 window.addEventListener("resize", activarSlide);
 activarSlide();*/
 
+const contenedor = document.querySelector(".div2");
 const texto = document.getElementById("texto_largo");
+const hint = document.querySelector(".hint");
 
-texto.addEventListener("click", () => {
+contenedor.addEventListener("click", (e) => {
+    // Evita activar slide si se da click en links o botones
+    if (e.target.closest("a, button")) return;
+
     texto.classList.toggle("expandido");
+
+    hint.textContent = texto.classList.contains("expandido")
+        ? "Click para ver menos ↑"
+        : "Click para ver más ↓";
+    hint.style.color = texto.classList.contains("expandido")
+        ? "#f87171" 
+        : "#38bdf8";
 });
 
 document.addEventListener("DOMContentLoaded", () => {

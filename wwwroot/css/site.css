@@ -125,6 +125,7 @@ Celular
 
 .div2 {
     grid-area: contenido;
+    cursor: pointer;
 }
 
 .div3 {
