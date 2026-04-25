@@ -78,7 +78,7 @@ contenedor.addEventListener("click", (e) => {
 
 document.addEventListener("DOMContentLoaded", () => {
     /*Move cursor */
-    const $demos = document.querySelector('#docs-demos');
+    /*const $demos = document.querySelector('#docs-demos');
     const $demo = document.querySelector('.docs-demo.is-active');
 
     let bounds = $demo.getBoundingClientRect();
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     window.addEventListener('mousemove', onMouseMove);
-    $demos.addEventListener('scroll', refreshBounds);
+    $demos.addEventListener('scroll', refreshBounds);*/
 
     /*=-=-=-=-=-=-= ANIMACION =-=-=-=-=-=-=*/
     const { words, chars } = splitText('p', {
@@ -141,13 +141,25 @@ document.addEventListener("DOMContentLoaded", () => {
                     //console.log(item.posicion);
                     //console.log(item.tecnologias.join(', '));
 
-                    contenidoHTML += `
+                    /*contenidoHTML += `
                                         <article class="timeline-item relative flex items-center" data-tags="">
                                             <div class="timeline-dot absolute left-4 md:left-6 w-8 h-8 bg-blue-500 rounded-full border-4 border-white/90 shadow-lg z-10"></div>
                                             <div class="timeline-content ml-20 bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
                                                 <div class="flex items-center justify-between mb-2">
                                                     <span class="text-blue-300 font-semibold text-sm">${item.empresa}, ${item.periodo}</span>
                                                     <span class="bg-blue-500/20 text-blue-200 px-3 py-1 rounded-full text-xs">Tecnologias</span>
+                                                </div>
+                                                <h3 class="text-xl font-bold mb-1 text-white">${item.posicion}</h3>
+                                                <p class="text-slate-200/90">${item.descripcion}</p>
+                                            </div>
+                                        </article>`;*/
+
+                    contenidoHTML += `
+                                        <article class="timeline-item relative flex items-center" data-tags="">
+                                            <div class="timeline-dot absolute left-4 md:left-6 w-8 h-8 bg-blue-500 rounded-full border-4 border-white/90 shadow-lg z-10"></div>
+                                            <div class="timeline-content ml-20 bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
+                                                <div class="flex items-center justify-between mb-2">
+                                                    <span class="text-blue-300 font-semibold text-sm">${item.empresa}, ${item.periodo}</span>
                                                 </div>
                                                 <h3 class="text-xl font-bold mb-1 text-white">${item.posicion}</h3>
                                                 <p class="text-slate-200/90">${item.descripcion}</p>
@@ -188,19 +200,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 let filas = Math.ceil(data.length / 2); //calcular cantidad de filas segun cantidad proyectos
 
-
-                contenidoHTML = `
-                                    <div style="display: grid; grid-template-columns: repeat(${2}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px;">
+                /*contenidoHTML = `
+                                    <div style="display: grid; grid-template-columns: repeat(${2}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px; margin:1% 5%;padding:20px;">
                                     
-                    `;
+                    `;*/
+                contenidoHTML = `
+                    <div style="
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                        gap: 16px;
+                        margin:1% 5%;
+                        padding:20px;
+                    ">
+                `;
 
                 data.forEach(function (item) {
+                    const tecnologias = item.tecnologias.join(", ");
                     contenidoHTML += `
                                         <a href="${urlProyectos}?nombre=${item.nombre}">
                                             <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
                                                 <div class="flex items-center justify-between mb-2">
                                                     <span class="text-blue-300 font-semibold text-sm"></span>
-                                                    <span class="bg-blue-500/20 text-blue-200 px-3 py-1 rounded-full text-xs">Tecnologias</span>
+                                                    <span class="bg-blue-500/20 text-blue-200 px-3 py-1 rounded-full text-xs">${tecnologias}</span>
                                                 </div>
                                                 <h3 class="text-xl font-bold mb-1 text-white">${item.nombre}</h3>
                                                 <p class="text-slate-200/90">${item.descripcion}</p>
@@ -229,7 +250,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                 contenidoHTML = `
-                                    <div style="display: grid; grid-template-columns: repeat(${2}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px;">
+                                    <div style="display: grid; grid-template-columns: repeat(${2}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px;margin:1% 5%;padding:20px;">
                                     
                     `;
 
