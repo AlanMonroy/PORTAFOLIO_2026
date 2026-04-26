@@ -23,6 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
     generateSpaceLayer('.space-3', '4px',
         50, '15s');
 
+    const elements = document.querySelectorAll('.fade-in');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    });
+
+    elements.forEach(el => observer.observe(el));
+
 
 });
 
