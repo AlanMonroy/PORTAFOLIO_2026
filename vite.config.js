@@ -24,8 +24,8 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'JS_VITE/main.js'),
-                index: resolve(__dirname, 'JS_VITE/index.js')/*,
-                proyectos: resolve(__dirname, 'JS_VITE/proyectos.js')*/
+                index: resolve(__dirname, 'JS_VITE/index.js'),
+                proyectos: resolve(__dirname, 'JS_VITE/proyectos.js')
             },
             output: {
                 entryFileNames: '[name].js'

@@ -217,7 +217,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 data.forEach(function (item) {
                     const tecnologias = item.tecnologias.join(", ");
                     contenidoHTML += `
-                                        <a href="${urlProyectos}?nombre=${item.nombre}">
+                                        <a href="${urlProyectos}?proyecto_id=${item.id}">
                                             <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
                                                 <div class="flex items-center justify-between mb-2">
                                                     <span class="text-blue-300 font-semibold text-sm"></span>

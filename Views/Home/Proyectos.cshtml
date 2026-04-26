@@ -1,9 +1,16 @@
-﻿@{
+﻿@model ProyectosViewModel
+@using System.Text.Json
+@if (Model == null)
+{
+    <h2>Proyecto no encontrado</h2>
+    return;
+}
+@{
     ViewData["Title"] = "Proyectos";
 }
 @section Scripts {
     <script type="module" src="~/js/main.js"></script>
-    <script type="module" src="~/js/index.js"></script>
+    <script type="module" src="~/js/proyectos.js"></script>
 }
 
 <!--Crear el fondo con efecto de la pagina-->
@@ -13,12 +20,11 @@
     <div class="space space-3"></div>
 </div>
 
-<h1>Proyectos</h1>
+<div class="contenedor_centrado">
+    <h1 class="text1">@Model.nombre</h1>
+</div>
+<div class="contenedor_centrado_estilo">
+    <h1 class="text1">@Model.descripcion</h1>
+</div>
 
-<script>
-    console.log("script directo en vista");
-
-    document.addEventListener("DOMContentLoaded", function () {
-        console.log("DOM listo en vista");
-    });
-</script>
+<div id="imagenes_proyecto" data-imagenes='@Html.Raw(JsonSerializer.Serialize(Model.imagenes))'></div>

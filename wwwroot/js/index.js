@@ -140,7 +140,7 @@
                         padding:20px;
                     ">
                 `,a.forEach(function(d){const f=d.tecnologias.join(", ");l+=`
-                                        <a href="${urlProyectos}?nombre=${d.nombre}">
+                                        <a href="${urlProyectos}?proyecto_id=${d.id}">
                                             <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
                                                 <div class="flex items-center justify-between mb-2">
                                                     <span class="text-blue-300 font-semibold text-sm"></span>

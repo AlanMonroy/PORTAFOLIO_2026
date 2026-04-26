@@ -87,7 +87,6 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\nb3keux2da-{0}
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\swo0x6f2pn-{0}-muycvpuwrr-muycvpuwrr.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\zpexzpf9tx-{0}-87fc7y1x7t-87fc7y1x7t.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\ccdpogd9fh-{0}-mlv21k5csn-mlv21k5csn.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\jnx883njsy-{0}-ozlmyl9ap3-ozlmyl9ap3.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\5qy3exxn9h-{0}-9fkv5pshtu-9fkv5pshtu.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\vs4nt1ot01-{0}-9fkv5pshtu-9fkv5pshtu.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\staticwebassets.build.json
@@ -102,6 +101,7 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\PORTAFOLIO_2026.genruntim
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\ref\PORTAFOLIO_2026.dll
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-b9m6p3i224-b9m6p3i224.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\0emz1vrkmf-{0}-vmqw9fq14n-vmqw9fq14n.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-cyadydwfs9-cyadydwfs9.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\6847mx745j-{0}-2b8hm9z8lk-2b8hm9z8lk.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\o6ryg91tcb-{0}-54413h2rke-54413h2rke.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-pfxxb3nfqs-pfxxb3nfqs.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\jnx883njsy-{0}-9geh3qbztz-9geh3qbztz.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\6847mx745j-{0}-3x81eos36m-3x81eos36m.gz
