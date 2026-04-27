@@ -8,6 +8,7 @@
       "https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/proyectos/direccionamiento_qa.png",
       "https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/proyectos/direccionamiento_qa_1.png"
     ],
+    "video": "",
     "tecnologias": [
       "Python",
       "MongoDB(Atlas)"
@@ -19,6 +20,7 @@
     "descripcion": "Creacion de aplicacion movil para mejorar el aprendizaje en las materias. La app contenia documentos, videos y ejercicios matematicos de la materia para complementar el aprendizaje en las aulas.",
     "url": "https://github.com/AlanMonroy",
     "imagenes": [],
+    "video": "https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/proyectos/INGECO_APP.mp4",
     "tecnologias": [
       "Power Apps"
     ]
@@ -29,6 +31,7 @@
     "descripcion": "Aplicacion de escritorio para asignar a los alumnos un horario creado automaticamente para pasar el menor tiempo posible en escuela acortando los periodos vacios entre clases.",
     "url": "https://github.com/AlanMonroy",
     "imagenes": [],
+    "video": "",
     "tecnologias": [
       "Python",
       "SQLServer"

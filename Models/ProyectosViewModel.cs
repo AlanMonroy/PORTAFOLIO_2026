@@ -7,6 +7,7 @@
         public string? descripcion { get; set; }
         public string? url { get; set; }
         public List<string>? imagenes { get; set; }
+        public string? video { get; set; }
         public List<string>? tecnologias { get; set; }
     }
 }
