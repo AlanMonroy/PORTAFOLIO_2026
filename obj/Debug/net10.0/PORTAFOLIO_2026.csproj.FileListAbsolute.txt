@@ -102,7 +102,7 @@ D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\ref\PORTAFOLIO_2026.dll
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\uiq1vf8f51-{0}-b9m6p3i224-b9m6p3i224.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\o6ryg91tcb-{0}-54413h2rke-54413h2rke.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\6847mx745j-{0}-3x81eos36m-3x81eos36m.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\mouj7t0i3s-{0}-x16czp7ngr-x16czp7ngr.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\jnx883njsy-{0}-dj1mz5u779-dj1mz5u779.gz
-D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-c776h727he-c776h727he.gz
 D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\0emz1vrkmf-{0}-kh1z4935cb-kh1z4935cb.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\05d7bp8bp6-{0}-itkvmw7c59-itkvmw7c59.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\mouj7t0i3s-{0}-10vi6rrj9q-10vi6rrj9q.gz
+D:\Programacion\.NET\PORTAFOLIO_2026\obj\Debug\net10.0\compressed\jnx883njsy-{0}-cn1ryy99cg-cn1ryy99cg.gz
