@@ -115,8 +115,9 @@ body {
 
 #imagen_perfil {
     width: 15vw;
-    min-width: 100px;
-    height: auto;
+    height: 15vw;
+    min-width: 150px;
+    min-height: 150px;
     object-fit: cover;
     border-radius: 50%;
     display: block;

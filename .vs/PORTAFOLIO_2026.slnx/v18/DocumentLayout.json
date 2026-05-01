@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-06T02:04:17.635Z",
               "IsPinned": true,
@@ -83,7 +83,7 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAABYAAAAAAAAAAAAewCkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswHcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-04-18T03:07:49.062Z",
               "IsPinned": true,
@@ -127,8 +127,7 @@
               "RelativeToolTip": "JS_VITE\\proyectos.js",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-04-26T02:03:43.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T02:03:43.749Z"
             },
             {
               "$type": "Document",
