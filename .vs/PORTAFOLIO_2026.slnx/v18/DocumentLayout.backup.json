@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\js_vite\\proyectos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:js_vite\\proyectos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\views\\home\\proyectos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:views\\home\\proyectos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\js_vite\\proyectos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|solutionrelative:js_vite\\proyectos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F1E4A2-9185-D7CE-9A44-18E6F31FE46A}|PORTAFOLIO_2026.csproj|d:\\programacion\\.net\\portafolio_2026\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-06T02:04:17.635Z",
               "IsPinned": true,
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Proyectos.cshtml",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\Views\\Home\\Proyectos.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Proyectos.cshtml",
@@ -73,11 +73,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-17T04:49:24.716Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -119,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "proyectos.js",
               "DocumentMoniker": "D:\\Programacion\\.NET\\PORTAFOLIO_2026\\JS_VITE\\proyectos.js",
               "RelativeDocumentMoniker": "JS_VITE\\proyectos.js",
