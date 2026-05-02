@@ -204,15 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <div style="display: grid; grid-template-columns: repeat(${2}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px; margin:1% 5%;padding:20px;">
                                     
                     `;*/
-                contenidoHTML = `
-                    <div style="
-                        display: grid;
-                        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-                        gap: 16px;
-                        margin:1% 5%;
-                        padding:20px;
-                    ">
-                `;
+                contenidoHTML = `<div class="grid-auto">`;
 
                 data.forEach(function (item) {
                     const tecnologias = item.tecnologias.join(", ");
@@ -249,10 +241,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 let filas = Math.ceil(data.length / 2); //calcular cantidad de filas segun cantidad proyectos
 
 
-                contenidoHTML = `
+                /*contenidoHTML = `
                                     <div style="display: grid; grid-template-columns: repeat(${2}, 1fr); grid-template-rows: repeat(${filas}, 1fr); gap: 8px;margin:1% 5%;padding:20px;">
                                     
-                    `;
+                    `;*/
+
+                contenidoHTML = `<div class="grid-auto">`;
 
                 data.forEach(function (item) {
                     contenidoHTML += `
@@ -319,6 +313,53 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     show_certificaciones('certificaciones1'); //MANDA LLAMAR LA CREACION
+
+    const links = [
+        {
+            label: 'GitHub',
+            href: 'https://github.com/AlanMonroy',
+            img: 'https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/github2.png',
+            alt: 'Acceso GitHub',
+        },
+        {
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/roberto-alan-rodriguez-monroy-6a3720255',
+            img: 'https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/linkedin.png',
+            alt: 'Acceso LinkedIn',
+        },
+        {
+            label: 'CODEPEN',
+            href: 'https://codepen.io/Alan-Monroy',
+            img: 'https://raw.githubusercontent.com/AlanMonroy/IMAGENES/main/codepen.png',
+            alt: 'Acceso CODEPEN',
+        },
+    ];
+
+    /** Construye un nodo de red social a partir de un objeto `link` */
+    function createLinkItem({ label, href, img, alt }) {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'contenedor-imagen';
+
+        wrapper.innerHTML = `
+        <div class="box">
+          <img class="imagen-circular" src="${img}" alt="${alt}">
+          <div class="overlay">
+            <a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>
+          </div>
+        </div>
+      `;
+
+        return wrapper;
+    }
+
+    /** Renderiza todos los enlaces en el contenedor */
+    function renderLinks(container, data) {
+        const fragment = document.createDocumentFragment();
+        data.forEach(link => fragment.appendChild(createLinkItem(link)));
+        container.appendChild(fragment);
+    }
+
+    renderLinks(document.getElementById('redes'), links);
 
 
 });
